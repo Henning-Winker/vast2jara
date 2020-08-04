@@ -1,0 +1,53 @@
+Package: vast2jara
+Type: Package
+Title: Supplementary functions for Survey-VAST-FishLife-JARA interface
+Version: 0.1.0
+Date: 2020-04-08
+Authors@R: 
+    c(person(given = "Henning",
+           family = "Winker",
+           role = c("aut", "cre"),
+           email = "henning.winker@ec.europa.com"))
+Description: Supplementary functions for Survey-VAST-FishLife-JARA interface: Trawlsurvey data, grids, wrapper functions, tools
+Imports:
+    graphics,
+    utils,
+    mapproj,
+    maptools,
+    deldir,
+    RANN,
+    stats,
+    colorspace,
+    RandomFields,
+    RandomFieldsUtils,
+    shape,
+    devtools,
+    mixtools,
+    sp,
+    plotKML,
+    plotrix,
+    TMB,
+    MatrixModels,
+    rgdal,
+    ThorsonUtilities,
+    TMBhelper,
+    abind,
+    corpcor,
+    pander,
+    rnaturalearth,
+    rnaturalearthdata,
+    formatR,
+    splancs,
+    DHARMa
+Depends:
+    R (>= 3.1.0)
+Suggests:
+    testthat
+Remotes: 
+    james-thorson/utilities,
+    kaskr/TMB_contrib_R/TMBhelper
+License: GPL-3
+LazyData: yes
+BuildVignettes: yes
+RoxygenNote: 7.0.2
+URL: http://github.com/henning-winker/vast2jara
